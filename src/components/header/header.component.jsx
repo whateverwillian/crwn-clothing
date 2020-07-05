@@ -14,6 +14,8 @@ import { ReactComponent as Logo } from '../../assets/crown.svg'
 
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
+import { OptionDiv, OptionLink } from './header.styles';
+
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link to='/'>
@@ -21,18 +23,18 @@ const Header = ({ currentUser, hidden }) => (
     </Link>
 
     <div className='options'>
-      <Link className='option' to='/shop'>
+      <OptionLink>
         SHOP
-      </Link>
-      <Link className='option' to='/shop'>
+      </OptionLink>
+      <OptionLink className='option' to='/shop'>
         CONTACT
-      </Link>
+      </OptionLink>
 
       {
         currentUser ?
-        (<div className='option' onClick={() => auth.signOut()}>SIGN OUT</div>)
+        (<OptionDiv onClick={() => auth.signOut()}>SIGN OUT</OptionDiv>)
         :
-        (<Link className='option' to='/sign'>SIGN IN</Link>)
+        (<OptionLink to='/sign'>SIGN IN</OptionLink>)
       }
 
       <CartIcon />
