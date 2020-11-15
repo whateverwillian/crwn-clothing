@@ -1,68 +1,125 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+<br />
+<p align="center">
+  <a href="https://github.com/whateverwillian/go-barber-web">
+    <img src="src/assets/crown.svg" alt="Logo" width="200" height="200">
+  </a>
+  <h3 align="center">CRWN Clothing</h3>
+  <p align="center">
+    Um e-commerce feito com ReactJS, Hooks, Redux, entre outras tecnologias
+    <br />
+    <br />
+    <a href="https://github.com/whateverwillian/go-barber-web/issues">Reportar um Bug</a>
+    ·
+    <a href="https://github.com/whateverwillian/go-barber-web/issues">Pedir uma Feature</a>
+  </p>
+</p>
+<img src="src/assets/womens.png" style="margin-bottom: 40px">
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+## 📌 Referência
 
-### `yarn start`
+* [Sobre o projeto](#rocket-sobre-o-projeto)
+  * [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Getting started](#rainbow-getting-started)
+  * [Pré-requisitos](#pré-requisitos)
+  * [Instalação](#instalação)
+* [Funcionalidades](#fire-funcionalidades)
+* [Como contribuir?](#bug-como-contribuir)
+* [Licença](#closed_book-licença)
+* [Contatos](#heart_eyes-contatos)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## :rocket: Sobre o projeto
 
-### `yarn test`
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse aplicativo/e-commerce é uma loja de roupas super maneira 😎. A idéia é ser um site serverless com toda a parte do backend sendo gerenciada por terceiros. Stripe foi utilizado para os pagamentos no app e firebase para todo o resto. 
 
-### `yarn build`
+### Tecnologias utilizadas
+Nesse aplicativo foram utilizadas as seguintes tecnologias
+* [ReactJS](https://pt-br.reactjs.org/)
+* [Redux](https://www.typescriptlang.org/)
+* [Sass]('https://sass-lang.com/')
+* [Styled Components](https://styled-components.com/)
+* [stripe]('https://stripe.com/')
+* [firebase]('https://firebase.google.com/')
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
+## :rainbow: Getting started
+Para utilizar o projeto localmente basta seguir os seguintes passos.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Precisamos das seguintes ferramentas.
+* npm
 
-### `yarn eject`
+### Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone o repositório
+```sh
+git clone https://github.com/whateverwillian/crwn-clothing
+```
+2. instale as dependências do projeto
+```sh
+npm install
+```
+3. Inicie o projeto
+```sh
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :fire: Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Se registrar como cliente & fazer login com **Google**
+<img src="src/assets/sign.png" style="margin: 20px 0">
+* Ver diferentes coleções de roupas (women, men, sneakers, jackets & hats)
+<img src="src/assets/home.png" style="margin: 20px 0">
+* Adicionar e editar items no carrinho & Ir para checkout (finalizar compra)
+<img src="src/assets/checkout.png" style="margin: 20px 0">
+* Realizar pagamentos (one-time payments)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- CONTRIBUTING -->
+## :bug: Como contribuir?
 
-## Learn More
+Contribuir é o que faz a comunidade open source um lugar tão incrível para aprender, inspirar e criar. Qualquer contribuição é **apreciada**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Dê um fork no projeto
+2. Crie uma nova Branch (`git checkout -b feature/nova-feature`)
+3. Dê um commit nas mudanças (`git commit -m 'Adicionei uma feature'`)
+4. Dê um push pra Branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :closed_book: Licença
 
-### Code Splitting
+Distribuído sob licença MIT.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<!-- CONTACT -->
+## :heart_eyes: Contatos
 
-### Analyzing the Bundle Size
+Willian tavares - [https://www.linkedin.com/in/whateverwill](https://www.linkedin.com/in/whateverwill) - willianliketavares@gmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Project Link: [https://github.com/whateverwillian/crwn-clothing](https://github.com/whateverwillian/crwn-clothing)
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/whateverwillian/crwn-clothing?style=flat-square
+[contributors-url]: https://github.com/whateverwillian/crwn-clothing/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/whateverwillian/crwn-clothing?style=flat-square
+[forks-url]: https://github.com/whateverwillian/crwn-clothing/network/members
+[stars-shield]: https://img.shields.io/github/stars/whateverwillian/crwn-clothing?style=flat-square
+[stars-url]: https://github.com/whateverwillian/crwn-clothing/stargazers
+[issues-shield]: https://img.shields.io/github/issues/whateverwillian/crwn-clothing?style=flat-square
+[issues-url]: https://github.com/whateverwillian/crwn-clothing/issues
+[license-shield]: https://img.shields.io/github/license/whateverwillian/crwn-clothing?style=flat-square
+[license-url]: https://github.com/whateverwillian/crwn-clothing/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/whateverwill
