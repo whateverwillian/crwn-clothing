@@ -7,7 +7,7 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/whateverwillian/go-barber-web">
+  <a href="https://whateverwill-clothing.herokuapp.com/sign">
     <img src="src/assets/crown.svg" alt="Logo" width="200" height="200">
   </a>
   <h3 align="center">CRWN Clothing</h3>
@@ -15,9 +15,9 @@
     Um e-commerce feito com ReactJS, Hooks, Redux, entre outras tecnologias
     <br />
     <br />
-    <a href="https://github.com/whateverwillian/go-barber-web/issues">Reportar um Bug</a>
+    <a href="https://github.com/whateverwillian/crwn-clothing/issues">Reportar um Bug</a>
     ·
-    <a href="https://github.com/whateverwillian/go-barber-web/issues">Pedir uma Feature</a>
+    <a href="https://github.com/whateverwillian/crwn-clothing/issues">Pedir uma Feature</a>
   </p>
 </p>
 <img src="src/assets/womens.png" style="margin-bottom: 40px">
