@@ -80,9 +80,12 @@ npm start
 
 * Se registrar como cliente & fazer login com **Google**
 <img src="src/assets/sign.png" style="margin-top:20px;margin-bottom:20px" />
+
 * Ver diferentes coleções de roupas (women, men, sneakers, jackets & hats)
 <img src="src/assets/home.png" style="margin-top:20px;margin-bottom:20px" />
+
 * Adicionar e editar items no carrinho & Ir para checkout (finalizar compra)
+
 * Realizar pagamentos (one-time payments)
 <img src="src/assets/checkout.png" style="margin-top:20px;margin-bottom:20px" />
 
