@@ -7,7 +7,7 @@
 
 <br />
 <p align="center">
-  <a href="https://whateverwill-clothing.herokuapp.com/sign">
+  <a href="https://whateverwill-clothing.herokuapp.com">
     <img src="src/assets/crown.svg" alt="Logo" width="200" height="200">
   </a>
   <h3 align="center">CRWN Clothing</h3>
