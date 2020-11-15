@@ -71,7 +71,8 @@ git clone https://github.com/whateverwillian/crwn-clothing
 ```sh
 npm install
 ```
-3. Inicie o projeto
+3. Configurar [stripe]('stripe.com') e [firebase]('https://firebase.google.com/')
+4. Inicie o projeto
 ```sh
 npm start
 ```
